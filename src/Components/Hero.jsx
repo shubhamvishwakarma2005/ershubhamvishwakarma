@@ -179,15 +179,18 @@ useEffect(() => {
                   ease: "easeInOut"
                 }}
               >
-                <motion.span
-                  animate={{ scale: [1, 1.08, 1] }}
-                  transition={{
-                    duration: 3,
-                    repeat: Infinity
-                  }}
-                >
-                  SV
-                </motion.span>
+
+              <motion.img
+                src="/images/profile.jpg"
+                alt="Shubham Vishwakarma"
+                className="hero-profile-photo"
+                animate={{ scale: [1, 1.02, 1] }}
+                transition={{
+                  duration: 3,
+                  repeat: Infinity
+                }}
+              />
+
               </motion.div>
 
               <motion.div

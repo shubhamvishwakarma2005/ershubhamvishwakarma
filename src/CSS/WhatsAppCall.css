@@ -1,0 +1,82 @@
+
+/* Floating Contact Buttons */
+
+.floating-contact-buttons {
+    position: fixed;
+    left: 10px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    z-index: 9999;
+}
+
+/* Common Button */
+
+.floating-btn {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+/* Icons */
+
+.floating-btn svg {
+    width: 25px;
+    height: 25px;
+}
+
+/* WhatsApp */
+
+.whatsapp-btn {
+    background: #25D366;
+}
+
+.whatsapp-btn:hover {
+    background: #1da851;
+    color: #fff;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 22px rgba(37, 211, 102, 0.4);
+}
+
+/* Call */
+
+.call-btn {
+    background: #2563eb;
+}
+
+.call-btn:hover {
+    background: #1d4ed8;
+    color: #fff;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 22px rgba(37, 99, 235, 0.4);
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 576px) {
+    .floating-contact-buttons {
+        left: 15px;
+        bottom: 18px;
+        gap: 10px;
+    }
+
+    .floating-btn {
+        width: 46px;
+        height: 46px;
+    }
+
+    .floating-btn svg {
+        width: 22px;
+        height: 22px;
+    }
+}

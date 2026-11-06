@@ -76,12 +76,15 @@ function Header() {
               transition={{ duration: 0.7 }}
               whileHover={{ scale: 1.05 }}
             >
-              <motion.span
-                whileHover={{ rotate: 10, scale: 1.1 }}
+
+              <motion.img
+                src="/images/profile.jpg"
+                alt="Shubham Vishwakarma"
+                className="header-profile-photo"
+                whileHover={{ scale: 1.08 }}
                 transition={{ type: 'spring', stiffness: 300 }}
-              >
-                SV
-              </motion.span>
+              />
+
 
               <div>
                 <h4>Shubham</h4>

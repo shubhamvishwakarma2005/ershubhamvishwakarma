@@ -3,7 +3,7 @@
 ============================== */
 
 .education-section {
-    padding: 90px 0;
+    padding: 60px 0;
     background: var(--bg-primary);
     color: var(--text-primary);
     overflow: hidden;
@@ -14,7 +14,7 @@
 
 .education-section .section-heading {
     text-align: center;
-    margin-bottom: 65px;
+    margin-bottom: 40px;
 }
 
 .education-section .section-heading > span {
@@ -222,7 +222,7 @@
 @media (max-width: 991px) {
 
     .education-section {
-        padding: 70px 0;
+        padding: 50px 0;
     }
 
     .timeline-card {

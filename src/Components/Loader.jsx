@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import { motion } from 'motion/react';
 import '../CSS/Loader.css';

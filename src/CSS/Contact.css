@@ -3,7 +3,7 @@
 ============================== */
 
 .contact-section {
-    padding: 90px 0;
+    padding: 60px 0;
     background: var(--bg-secondary);
     color: var(--text-primary);
     overflow: hidden;
@@ -190,7 +190,7 @@
 
 @media (max-width: 991px) {
     .contact-section {
-        padding: 70px 0;
+        padding: 50px 0;
     }
 
     .contact-info,

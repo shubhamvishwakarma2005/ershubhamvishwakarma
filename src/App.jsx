@@ -12,6 +12,7 @@ import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import Loader from './Components/Loader';
 import BackToTop from './Components/BackToTop';
+import WhatsAppCall from "./Components/WhatsAppCall";
 
 import { ThemeProvider } from './Context/ThemeContext';
 
@@ -51,6 +52,7 @@ function App() {
             <Contact />
             <Footer />
             <BackToTop />
+            <WhatsAppCall />
           </motion.div>
 
         )}
