@@ -1,0 +1,67 @@
+
+/* =========================
+   DARK THEME
+========================= */
+
+:root,
+[data-theme="dark"] {
+  --bg-primary: #080d1c;
+  --bg-secondary: #0b1224;
+  --bg-card: #111b32;
+
+  --text-primary: #ffffff;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+
+  --accent-color: #60a5fa;
+  --accent-gradient: linear-gradient(135deg, #2563eb, #9333ea);
+
+  --border-color: rgba(148, 163, 184, 0.15);
+
+  --shadow-color: rgba(0, 0, 0, 0.3);
+}
+
+/* =========================
+   LIGHT THEME
+========================= */
+
+[data-theme="light"] {
+  --bg-primary: #f8fafc;
+  --bg-secondary: #ffffff;
+  --bg-card: #ffffff;
+
+  --text-primary: #0f172a;
+  --text-secondary: #334155;
+  --text-muted: #64748b;
+
+  --accent-color: #2563eb;
+  --accent-gradient: linear-gradient(135deg, #2563eb, #7c3aed);
+
+  --border-color: rgba(15, 23, 42, 0.12);
+
+  --shadow-color: rgba(15, 23, 42, 0.08);
+}
+
+/* =========================
+   GLOBAL THEME
+========================= */
+
+html {
+  transition: background-color 0.3s ease;
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+#root {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
