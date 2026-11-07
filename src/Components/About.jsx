@@ -80,17 +80,19 @@ function About() {
                   ease: "easeInOut"
                 }}
               >
+                <motion.img
+                  src="/WhatsApp Image 2026-06-25 at 2.36.57 PM copy.jpeg"
+                  alt="Shubham Vishwakarma"
+                  className="about-profile-photo"
+                  animate={{ scale: [1, 1.02, 1] }}
+                  transition={{
+                    duration: 3,
+                    repeat: Infinity
+                  }}
+                />
+              </motion.div>
 
-              <motion.img
-                src="/WhatsApp Image 2026-06-25 at 2.36.57 PM copy.jpeg"
-                alt="Shubham Vishwakarma"
-                className="about-profile-photo"
-                animate={{ scale: [1, 1.02, 1] }}
-                transition={{
-                  duration: 3,
-                  repeat: Infinity
-                }}
-              />
+              {/* Developer Card */}
               <motion.div
                 className="about-experience"
                 initial={{ opacity: 0, y: 30 }}
