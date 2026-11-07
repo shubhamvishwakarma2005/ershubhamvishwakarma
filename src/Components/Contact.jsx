@@ -55,7 +55,7 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const mail = 'YOUR_EMAIL@gmail.com';
+    const mail = 'shubhamvishwakarma8506@gmail.com';
 
     const body = `
 Name: ${form.name}
@@ -129,7 +129,7 @@ ${form.message}
                 <FaEnvelope />
                 <div>
                   <h6>Email Address</h6>
-                  <p>YOUR_EMAIL@gmail.com</p>
+                  <p>shubhamvishwakarma8506@gmail.com</p>
                 </div>
               </motion.div>
 
@@ -143,7 +143,7 @@ ${form.message}
                 <FaPhoneAlt />
                 <div>
                   <h6>Phone Number</h6>
-                  <p>+91 XXXXX XXXXX</p>
+                  <p>+91 8506017646</p>
                 </div>
               </motion.div>
 
@@ -169,7 +169,7 @@ ${form.message}
                 transition={{ delay: 0.4, duration: 0.6 }}
               >
                 <motion.a
-                  href="https://github.com/"
+                  href="https://github.com/shubhamvishwakarma2005"
                   target="_blank"
                   rel="noreferrer"
                   whileHover={{ y: -6, scale: 1.12, rotate: 5 }}
@@ -179,7 +179,7 @@ ${form.message}
                 </motion.a>
 
                 <motion.a
-                  href="https://linkedin.com/"
+                  href="https://www.linkedin.com/"
                   target="_blank"
                   rel="noreferrer"
                   whileHover={{ y: -6, scale: 1.12, rotate: -5 }}

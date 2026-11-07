@@ -20,6 +20,7 @@ function Projects() {
       description: 'A modern online shopping website with product listings, cart and checkout functionality.',
       tech: ['ReactJS', 'Bootstrap', 'CSS'],
       icon: <FaShoppingCart />,
+      image: '/projects/ecommerce.png',
       number: '01',
       category: 'Web Development',
       theme: 'project-blue'
@@ -29,6 +30,7 @@ function Projects() {
       description: 'An admin panel to manage users, records and important application data.',
       tech: ['ReactJS', 'PHP', 'MySQL'],
       icon: <FaChartLine />,
+      image: '/projects/dashboard.png',
       number: '02',
       category: 'Dashboard',
       theme: 'project-purple'
@@ -38,6 +40,7 @@ function Projects() {
       description: 'A local food delivery application concept for ordering fast food anytime.',
       tech: ['ReactJS', 'PHP', 'MySQL'],
       icon: <FaHamburger />,
+      image: '/projects/quickbite.png',
       number: '03',
       category: 'Food Delivery',
       theme: 'project-orange'
@@ -47,6 +50,7 @@ function Projects() {
       description: 'A simple task management application to organize and track daily activities.',
       tech: ['ReactJS', 'CSS', 'JavaScript'],
       icon: <FaTasks />,
+      image: '/projects/taskmanager.jpg',
       number: '04',
       category: 'Productivity',
       theme: 'project-green'
@@ -141,23 +145,15 @@ function Projects() {
                     {project.number}
                   </motion.span>
 
-                  <motion.div
-                    className="project-preview-icon"
-                    initial={{ opacity: 0, scale: 0.5, rotate: -20 }}
-                    whileInView={{ opacity: 1, scale: 1, rotate: 0 }}
-                    transition={{
-                      duration: 0.7,
-                      delay: 0.2,
-                      type: 'spring'
-                    }}
-                    whileHover={{
-                      scale: 1.2,
-                      rotate: 8
-                    }}
+                  <motion.img
+                    src={project.image}
+                    alt={project.title}
+                    className="project-image"
+                    initial={{ opacity: 0, scale: 0.9 }}
+                    whileInView={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.7 }}
                     viewport={{ once: true }}
-                  >
-                    {project.icon}
-                  </motion.div>
+                  />
 
                   <motion.span
                     className="project-category"

@@ -82,7 +82,7 @@ function About() {
               >
 
               <motion.img
-                src="public/WhatsApp Image 2026-06-25 at 2.36.57 PM.jpeg"
+                src="public/WhatsApp Image 2026-06-25 at 2.36.57 PM copy.jpeg"
                 alt="Shubham Vishwakarma"
                 className="about-profile-photo"
                 animate={{ scale: [1, 1.02, 1] }}

@@ -24,9 +24,10 @@ function Loader({ onComplete }) {
       <div className="loader-content">
 
         {/* SV Logo */}
+        {/* Profile Image */}
         <motion.div
-          className="loader-logo"
-          initial={{ scale: 0.5, opacity: 0, rotate: -20 }}
+          className="loader-image"
+          initial={{ scale: 0.5, opacity: 0, rotate: -15 }}
           animate={{ scale: 1, opacity: 1, rotate: 0 }}
           transition={{
             duration: 0.8,
@@ -34,7 +35,7 @@ function Loader({ onComplete }) {
             stiffness: 150
           }}
         >
-          SV
+          <img src="/shubham.png" alt="Shubham Vishwakarma" />
         </motion.div>
 
         {/* Name */}

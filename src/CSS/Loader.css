@@ -77,7 +77,7 @@
     overflow: hidden;
     margin-bottom: 15px;
 }
-
+ 
 /* Progress Fill */
 
 .loader-fill {
@@ -98,19 +98,36 @@
 /* Responsive */
 
 @media (max-width: 480px) {
-
-    .loader-logo {
-        width: 75px;
-        height: 75px;
-        font-size: 28px;
+    .loader-image {
+        width: 65px;
+        height: 65px;
     }
+}
 
-    .loader-content h2 {
-        font-size: 22px;
-    }
+/* FORCE LOADER IMAGE SIZE */
 
-    .loader-content p {
-        font-size: 12px;
-    }
+/* HALF BODY PROFILE IMAGE */
 
+.page-loader .loader-content .loader-image {
+    width: 85px !important;
+    height: 85px !important;
+    min-width: 85px;
+    min-height: 85px;
+    max-width: 85px;
+    max-height: 85px;
+    padding: 3px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 15px !important;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.page-loader .loader-content .loader-image img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center 20%;
+    border-radius: 12px !important;
+    display: block;
 }
