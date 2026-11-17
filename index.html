@@ -1,35 +1,55 @@
 
 <!doctype html>
-<html lang="en">
+<html lang="en" dir="ltr">
 
 <head>
   <meta charset="UTF-8" />
 
-  <!-- Responsive Website -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Responsive Viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
 
-  <!-- Website Title -->
-  <title>Shubham Vishwakarma | Full Stack Developer</title>
-
-  <!-- SEO Description -->
+  <!-- Primary SEO Title & Description -->
+  <title>Shubham Vishwakarma | Full Stack Developer | React & Laravel Portfolio</title>
   <meta
     name="description"
-    content="Shubham Vishwakarma is a Full Stack Developer specializing in PHP, Laravel, MySQL and ReactJS. Explore his skills, projects, education and portfolio."
+    content="Explore the portfolio of Shubham Vishwakarma - Full Stack Developer specializing in React.js, PHP, Laravel, and MySQL. View projects, skills, resume, and get in touch for web development opportunities."
+  />
+  <meta
+    name="keywords"
+    content="Shubham Vishwakarma, Full Stack Developer, React Developer, Laravel Developer, PHP Developer, MySQL, Frontend Developer, Backend Developer, Web Developer Lucknow, Web Designer India, ReactJS Developer, Portfolio, Web Application Development, Software Engineer Portfolio"
   />
 
-  <!-- Author -->
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://shubham-portfolio-alpha-two.vercel.app/" />
+
+  <!-- Author, Publisher & Copyright -->
   <meta name="author" content="Shubham Vishwakarma" />
+  <meta name="publisher" content="Shubham Vishwakarma" />
+  <meta name="copyright" content="Shubham Vishwakarma" />
 
-  <!-- Search Engine Indexing -->
-  <meta name="robots" content="index, follow" />
+  <!-- Search Engine Crawlers & Indexing -->
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 
-  <!-- Theme Color -->
+  <!-- Geo & Regional Tags -->
+  <meta name="geo.region" content="IN-UP" />
+  <meta name="geo.placename" content="Lucknow" />
+  <meta name="language" content="English" />
+  <meta name="rating" content="General" />
+
+  <!-- Theme Color & Mobile Settings -->
   <meta name="theme-color" content="#080d1c" />
+  <meta name="msapplication-TileColor" content="#080d1c" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Shubham Portfolio" />
+  <meta name="format-detection" content="telephone=no" />
 
-  <!-- Favicon -->
+  <!-- Favicon, Manifest & App Icons -->
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <!-- <link rel="icon" type="image/svg+xml" href="/public/Cinematic Blue-Toned Executive Portrait.png" /> -->
-  <!-- <link rel="icon" type="image/svg+xml" href="/public/WhatsApp Image 2026-06-25 at 2.36.57 PM.jpeg" /> -->
+  <link rel="apple-touch-icon" href="/favicon.svg" />
+  <link rel="manifest" href="/manifest.json" />
 
   <!-- Google Search Console Verification -->
   <meta
@@ -37,29 +57,104 @@
     content="4o6YCMjYzPaV3Z4rAWRNgcF-m87e6MWBy34qBnnSZlc"
   />
 
-  <!-- Open Graph / Social Media -->
-  <meta property="og:type" content="website" />
-  <meta
-    property="og:title"
-    content="Shubham Vishwakarma | Full Stack Developer"
-  />
+  <!-- Open Graph / Facebook / LinkedIn / Discord -->
+  <meta property="og:type" content="profile" />
+  <meta property="og:site_name" content="Shubham Vishwakarma Portfolio" />
+  <meta property="og:title" content="Shubham Vishwakarma | Full Stack Developer | Portfolio" />
   <meta
     property="og:description"
-    content="Explore the portfolio, skills and projects of Shubham Vishwakarma, Full Stack Developer."
+    content="Passionate Full Stack Developer specializing in React.js, PHP, Laravel, and MySQL. Explore my latest projects, technical skills, and web development experience."
   />
-  <meta property="og:site_name" content="Shubham Vishwakarma Portfolio" />
+  <meta property="og:url" content="https://shubham-portfolio-alpha-two.vercel.app/" />
+  <meta property="og:image" content="https://shubham-portfolio-alpha-two.vercel.app/images/profile.jpg" />
+  <meta property="og:image:secure_url" content="https://shubham-portfolio-alpha-two.vercel.app/images/profile.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Shubham Vishwakarma - Full Stack Developer Portfolio" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="profile:first_name" content="Shubham" />
+  <meta property="profile:last_name" content="Vishwakarma" />
+  <meta property="profile:username" content="shubhamvishwakarma2005" />
 
   <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary" />
-  <meta
-    name="twitter:title"
-    content="Shubham Vishwakarma | Full Stack Developer"
-  />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Shubham Vishwakarma | Full Stack Developer | Portfolio" />
   <meta
     name="twitter:description"
-    content="Explore my portfolio, skills and web development projects."
+    content="Explore the portfolio, skills, and projects of Shubham Vishwakarma - Full Stack Developer specializing in React, PHP, Laravel, and MySQL."
   />
+  <meta name="twitter:image" content="https://shubham-portfolio-alpha-two.vercel.app/images/profile.jpg" />
+  <meta name="twitter:image:alt" content="Shubham Vishwakarma - Full Stack Developer Portfolio" />
 
+  <!-- Performance & Preconnects -->
+  <link rel="preconnect" href="https://embed.tawk.to" crossorigin />
+  <link rel="dns-prefetch" href="https://embed.tawk.to" />
+
+  <!-- JSON-LD Structured Data (Schema.org) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://shubham-portfolio-alpha-two.vercel.app/#person",
+        "name": "Shubham Vishwakarma",
+        "givenName": "Shubham",
+        "familyName": "Vishwakarma",
+        "jobTitle": "Full Stack Developer",
+        "description": "Full Stack Developer specializing in React.js, PHP, Laravel, and MySQL.",
+        "url": "https://shubham-portfolio-alpha-two.vercel.app/",
+        "image": "https://shubham-portfolio-alpha-two.vercel.app/images/profile.jpg",
+        "email": "mailto:shubhamvishwakarma8506@gmail.com",
+        "telephone": "+918506017646",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lucknow",
+          "addressRegion": "Uttar Pradesh",
+          "addressCountry": "India"
+        },
+        "sameAs": [
+          "https://github.com/shubhamvishwakarma2005",
+          "https://linkedin.com/"
+        ],
+        "knowsAbout": [
+          "React.js",
+          "PHP",
+          "Laravel",
+          "MySQL",
+          "JavaScript",
+          "HTML5",
+          "CSS3",
+          "Bootstrap",
+          "Full Stack Web Development",
+          "REST APIs",
+          "Git"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://shubham-portfolio-alpha-two.vercel.app/#website",
+        "url": "https://shubham-portfolio-alpha-two.vercel.app/",
+        "name": "Shubham Vishwakarma Portfolio",
+        "description": "Official portfolio website of Shubham Vishwakarma - Full Stack Developer",
+        "publisher": {
+          "@id": "https://shubham-portfolio-alpha-two.vercel.app/#person"
+        },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "ProfilePage",
+        "@id": "https://shubham-portfolio-alpha-two.vercel.app/#profilepage",
+        "url": "https://shubham-portfolio-alpha-two.vercel.app/",
+        "name": "Shubham Vishwakarma - Full Stack Developer Portfolio",
+        "mainEntity": {
+          "@id": "https://shubham-portfolio-alpha-two.vercel.app/#person"
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 
 <body>

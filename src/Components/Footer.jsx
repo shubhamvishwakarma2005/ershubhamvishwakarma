@@ -87,7 +87,7 @@ function Footer() {
             >
 
               <motion.a
-                href="https://github.com/"
+                href="https://github.com/shubhamvishwakarma2005"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="GitHub"
@@ -206,7 +206,7 @@ function Footer() {
 
           <motion.a
             href="#home"
-            className="back-to-top"
+            className="footer-back-to-top"
             whileHover={{ y: -7, scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             aria-label="Back to top"

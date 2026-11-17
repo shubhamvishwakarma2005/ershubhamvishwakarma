@@ -1,8 +1,31 @@
-    <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://shubham-portfolio-alpha-two.vercel.app/</loc>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://shubham-portfolio-alpha-two.vercel.app/images/profile.jpg</image:loc>
+      <image:title>Shubham Vishwakarma - Full Stack Developer</image:title>
+      <image:caption>Shubham Vishwakarma - React, PHP, Laravel Full Stack Developer Portfolio</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://shubham-portfolio-alpha-two.vercel.app/projects/ecommerce.png</image:loc>
+      <image:title>E-Commerce Website Project</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://shubham-portfolio-alpha-two.vercel.app/projects/dashboard.png</image:loc>
+      <image:title>Admin Dashboard Project</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://shubham-portfolio-alpha-two.vercel.app/projects/quickbite.png</image:loc>
+      <image:title>Quick Bite Food Delivery App Project</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://shubham-portfolio-alpha-two.vercel.app/projects/taskmanager.jpg</image:loc>
+      <image:title>Task Manager Application Project</image:title>
+    </image:image>
   </url>
 </urlset>

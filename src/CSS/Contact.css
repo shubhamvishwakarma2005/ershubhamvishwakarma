@@ -205,7 +205,7 @@
 
 @media (max-width: 576px) {
     .contact-section {
-        padding: 55px 0;
+        padding: 55px 0 50px;
     }
 
     .section-heading {
@@ -285,8 +285,9 @@
 
     .contact-submit {
         width: 100%;
-        padding: 12px 18px;
-        font-size: 14px;
+        padding: 13px 18px;
+        font-size: 15px;
+        margin-top: 8px;
     }
 }
 

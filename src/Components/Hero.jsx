@@ -134,9 +134,10 @@ useEffect(() => {
               <span>Follow Me:</span>
 
               <motion.a
-                href="https://github.com/"
+                href="https://github.com/shubhamvishwakarma2005"
                 target="_blank"
                 rel="noreferrer"
+                aria-label="GitHub Profile"
                 whileHover={{ y: -6, scale: 1.2, rotate: 8 }}
               >
                 <FaGithub />
